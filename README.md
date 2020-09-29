@@ -16,6 +16,8 @@ As it stands, based on speed tests `enumerate_multi.py` is able to scrub faster.
 
 `enumerate_multi.py` will fail _intermittently_ with `queue.Full` which points to [pipe size limits](https://stackoverflow.com/a/34035902)
 
+The second way that `enumerate_multi.py` has failed was were it appears to have completed successfully but really it just died with no error. :shrug_emoji:
+
 ## TODO:
 
 The script that I am testing in prod utilizes a package called [scrubadub](https://scrubadub.readthedocs.io/en/stable/) which is a slightly more robust "find and replace" tool. 
